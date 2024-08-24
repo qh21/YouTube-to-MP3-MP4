@@ -2,4 +2,4 @@
 
 - Copy The video link and paste it on the link area (the language of the keyboard must be in English).
 
-- Please note that you need to have (ffmpeg) installed on your computer to use this YouTube converter.
+- Please note that you need to have (ffmpeg) installed on your computer and add the path of (ffmpeg) to the code to use this YouTube converter.
