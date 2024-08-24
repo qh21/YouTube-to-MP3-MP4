@@ -25,7 +25,7 @@ Desired_font = tkinter.font.Font( family = "Roboto Mono",
 
 def downloadVideo(link):
     ydl_opts = {
-    'format': 'bestvideo+bestaudio/best',
+    'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]',
     'outtmpl': os.path.join(dllocation, '%(title)s.%(ext)s'), 
     'ffmpeg_location': os.path.join(script_dir, 'ffmpeg'), # Edit the path of ffmpeg
     'noplaylist': True,
