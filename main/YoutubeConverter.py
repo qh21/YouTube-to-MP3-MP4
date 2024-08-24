@@ -27,7 +27,7 @@ def downloadVideo(link):
     ydl_opts = {
     'format': 'bestvideo+bestaudio/best',
     'outtmpl': os.path.join(dllocation, '%(title)s.%(ext)s'), 
-    'ffmpeg_location': os.path.join(script_dir, 'ffmpeg'),
+    'ffmpeg_location': os.path.join(script_dir, 'ffmpeg'), # Edit the path of ffmpeg
     'noplaylist': True,
 
     }
